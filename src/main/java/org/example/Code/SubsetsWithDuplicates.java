@@ -12,6 +12,7 @@ class SubsetsWithDuplicates {
 
     private void generateSubsets(int[] nums, int index, List<Integer> current, List<List<Integer>> res) {
         if (index == nums.length) {
+
             res.add(new ArrayList<>(current)); // Add the current subset to the result
             return;
         }
