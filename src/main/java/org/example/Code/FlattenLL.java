@@ -89,11 +89,11 @@ public class FlattenLL {
         head.next.next.next.bottom.bottom.bottom = new Node(45);
 
         // Flatten the list
-        Solution solution = new Solution();
-        Node flattenedList = solution.flatten(head);
+        CoinChange solution = new CoinChange();
+//        Node flattenedList = solution.flatten(head);
 
         // Print the flattened list
         System.out.println("Flattened linked list:");
-        printFlattenedList(flattenedList);
+//        printFlattenedList(flattenedList);
     }
 }

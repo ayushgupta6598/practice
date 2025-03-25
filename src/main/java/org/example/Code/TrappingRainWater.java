@@ -34,7 +34,7 @@ Submissions
 Seen this question in a real interview before?
 
 1
-class Solution {
+class CoinChange {
 2
     public int trap(int[] height) {
     }

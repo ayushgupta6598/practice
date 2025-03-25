@@ -3,7 +3,7 @@ package org.example.Code;
 
 public class FirstOccurenceString {
     public static void main(String[] args) {
-        // Create an instance of Solution
+        // Create an instance of CoinChange
         FirstOccurenceString solution = new FirstOccurenceString();
         // Test case with the given haystack and needle
         String haystack = "leetcode";

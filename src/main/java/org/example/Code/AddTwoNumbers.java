@@ -84,7 +84,7 @@ public class AddTwoNumbers {
 
         // Implement your custom logic here
         public void solve() {
-            // Solution logic
+            // CoinChange logic
         }
 
         public void main(String[] args) {

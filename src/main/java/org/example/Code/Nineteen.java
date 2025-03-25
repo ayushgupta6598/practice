@@ -73,7 +73,7 @@
 //
 //        int n = 2; // Node to remove from the end
 //
-//        Solution solution = new Solution();
+//        CoinChange solution = new CoinChange();
 //        head = RemoveNthFromEnd.removeNthFromEnd(head, n);
 //
 //        // Print the updated linked list

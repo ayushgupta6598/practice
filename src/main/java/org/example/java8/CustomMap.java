@@ -1,6 +1,7 @@
 package org.example.java8;
 
-import java.util.Objects;
+import java.util.*;
+import java.util.stream.Stream;
 
 public class CustomMap<K, V> { // Renamed from CustomHashMap to CustomMap
 
@@ -36,6 +37,9 @@ public class CustomMap<K, V> { // Renamed from CustomHashMap to CustomMap
 //            }
 //            return;
 //        }
+        List<Integer> list = Arrays.asList(1,2,3,4);
+//        list.stream().reduce(Integer::sum).get();
+        System.out.println("Helllo"+Stream.of(1,2,3).max(((o1,o2)-> o1-o2)).get());
         int hash = getHash(key);
         int bucketIndex = getBucketIndex(hash);
         Node<K, V> bucket = buckets[bucketIndex];
