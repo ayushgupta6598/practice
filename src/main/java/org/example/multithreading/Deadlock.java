@@ -14,6 +14,7 @@ public class Deadlock {
 		
 		new Thread(deadlock::worker1, "worker1").start();
 		new Thread(deadlock::worker2, "worker1").start();
+		
 	}
 	
 	public void worker1() {
